@@ -1,0 +1,19 @@
+//inserting elements in the list
+//1.add()
+void main() {
+  var even_list = [2, 4, 6];
+  print(even_list);
+  even_list.add(10);
+  print(even_list);
+  //2.addAll()
+  even_list.addAll([8,10,12,14]);
+  print(even_list);
+  //3. insert()
+  even_list.insert(2,14);
+  print(even_list);
+  //4. insertAll(
+  even_list.insertAll(3,[16,18,22]);
+  print(even_list);
+}
+
+ 
